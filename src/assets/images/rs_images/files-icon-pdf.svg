@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="32" viewBox="0 0 29 32">
+    <defs>
+        <filter id="ljszrqldja" width="175%" height="175%" x="-37.5%" y="-56.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0909637238 0"/>
+        </filter>
+        <path id="e740kqwg1b" d="M16 0h6.745c2.062 0 3.922 1.86 3.922 3.922v6.745L16 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <path fill="#E94848" d="M16 0l10.667 10.667v17.6c0 2.062-1.672 3.733-3.734 3.733h-19.2C1.671 32 0 30.329 0 28.267V3.733C0 1.671 1.671 0 3.733 0H16z" transform="translate(-299 -491) translate(278.4 468) translate(20.6 23)"/>
+                    <path fill="#FFF" fill-rule="nonzero" d="M12.436 11.733c-.7 0-1.275.575-1.275 1.274 0 .87.483 1.948.992 2.963-.398 1.244-.849 2.577-1.426 3.702-1.18.464-2.233.808-2.866 1.318-.01.01-.02.021-.028.032-.231.237-.366.559-.366.904 0 .699.575 1.274 1.274 1.274.34 0 .67-.127.908-.37l.023-.02c.466-.557 1.016-1.566 1.505-2.489 1.129-.443 2.311-.895 3.452-1.166.833.671 2.039 1.115 3.03 1.115.7 0 1.274-.575 1.274-1.274 0-.7-.575-1.275-1.274-1.275-.795 0-1.95.284-2.835.582-.716-.673-1.374-1.512-1.847-2.405.338-1.041.733-2.083.733-2.89 0-.7-.575-1.275-1.274-1.275zm0 .765c.286 0 .51.223.51.51 0 .382-.206 1.086-.443 1.843-.317-.737-.577-1.443-.577-1.844 0-.286.224-.51.51-.51zm.219 4.36c.383.609.832 1.176 1.321 1.68-.755.206-1.493.471-2.221.748.351-.794.633-1.617.9-2.428zm5.004 1.628c.286 0 .51.224.51.51 0 .286-.224.51-.51.51-.574 0-1.39-.26-2.042-.622.749-.212 1.566-.398 2.042-.398zm-7.604 2.281c-.359.64-.715 1.237-.964 1.537-.085.082-.198.132-.35.132-.286 0-.51-.224-.51-.51 0-.135.057-.268.135-.354.3-.232.95-.509 1.689-.805z" transform="translate(-299 -491) translate(278.4 468) translate(20.6 23)"/>
+                    <g transform="translate(-299 -491) translate(278.4 468) translate(20.6 23) rotate(180 21.333 5.333)">
+                        <use fill="#000" filter="url(#ljszrqldja)" xlink:href="#e740kqwg1b"/>
+                        <use fill="#FFF" fill-opacity=".4" xlink:href="#e740kqwg1b"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

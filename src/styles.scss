@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+//@import "/src/assets/css/styles.css";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+.scrollable-dropdown-menu .dropdown-menu {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.mr5{
+    margin-right: 5px;
+  }

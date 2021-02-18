@@ -1,0 +1,245 @@
+@media(min-width:1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media(max-width:1600px) {
+    .hero-main .img-hero img {
+        max-width: 700px;
+    }
+    .form-control {
+        height: 62px;
+    }
+    select.form-control {
+        height: 62px !important;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.75;
+        color: #808080;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .lead {
+        font-size: 16px;
+    }
+    .card-placeholder ul li {
+        font-size: 18px;
+    }
+    section {
+        padding: 50px 0;
+    }
+    .resume .media .media-body p.lead {
+        font-size: 16px;
+    }
+    .resume .card .title-text,
+    .resume .media .media-body .title-text {
+        font-size: 26px;
+    }
+    .resume .card a,
+    .edit-links li a,
+    .resume .media .media-body .cta-icon-link {
+        font-size: 16px;
+    }
+    .resume .media .media-body .cta-icon-link i {
+        font-size: 30px;
+        margin-right: 8px;
+    }
+}
+
+@media(max-width:991px) {
+    .hero-main .img-hero img {
+        max-width: 550px;
+    }
+    .hero-text h1 {
+        font-size: 21px;
+    }
+    section {
+        padding: 40px 0;
+    }
+    .hero-main .img-hero img {
+        max-width: 445px;
+    }
+    .form-control {
+        height: 48px;
+        font-size: 15px;
+    }
+    select.form-control {
+        height: 48px !important;
+    }
+    .form-control {
+        height: 48px;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .btn {
+        min-width: 142px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .exp-card {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    .card-placeholder {
+        height: auto;
+        margin-bottom: 45px;
+    }
+}
+
+@media(max-width:767px) {
+    .about-flex-box .img-holder,
+    .hero-main .img-holder {
+        margin-bottom: 30px;
+    }
+    .about-flex-box.float-right {
+        max-width: 200%;
+        float: none !important;
+    }
+    .about-flex-box img {
+        width: 100%;
+    }
+    .resume .media .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+    }
+    .resume .media .media-body {
+        padding: 15px;
+    }
+    .resume .media .media-body p.lead {
+        font-size: 15px;
+    }
+    .lead {
+        font-size: 15px;
+    }
+    .video-card {
+        margin-bottom: 30px;
+    }
+    .card-docs .img-holder img {
+        width: 100%;
+    }
+    .card-docs .chat-message {
+        min-height: 400px;
+    }
+    .video-main {
+        height: auto;
+    }
+    .card-docs .chat-message .chat-body {
+        height: 300px;
+        flex: inherit;
+    }
+    .card-docs .chat-message {
+        min-height: auto;
+    }
+    .video-card {
+        height: 100vh;
+    }
+    .icon-action {
+        padding: 4px 15px;
+        height: 40px;
+    }
+    #cv .resume .media .media-body {
+        padding: 0;
+    }
+}
+
+@media(max-width:575px) {
+    header .nav img {
+        height: 28px;
+    }
+    .btn {
+        min-width: 106px;
+        height: 33px;
+        font-size: 12px;
+    }
+    .hero-main .img-hero img {
+        max-width: 100%;
+    }
+    section {
+        padding: 20px 0;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .content p {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    .exp-card .exp-text h5 {
+        font-size: 18px;
+    }
+    footer .quick-links li:after,
+    footer p,
+    footer .quick-links li a,
+    .exp-card .exp-text p {
+        font-size: 14px;
+    }
+    .cta-link {
+        font-size: 14px;
+    }
+    .card-placeholder ul li {
+        font-size: 16px;
+    }
+    .resume .media {
+        flex-direction: column;
+    }
+    .resume .media .avatar {
+        padding-top: 15px;
+    }
+    .resume .media .avatar {
+        margin: 0 auto;
+    }
+    .resume .card {
+        padding: 15px;
+    }
+    .resume .card .card_body .exp-text h5 {
+        font-size: 16px;
+    }
+    .video-card .small-screen {
+        bottom: 10px;
+        right: 12px;
+        width: 80px;
+        height: 80px;
+    }
+    .error-page h4 {
+        font-size: 22px;
+    }
+    .error-page p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    #permission p {
+        font-size: 14px;
+    }
+    #permission p {
+        margin-bottom: 0;
+    }
+    #cv .resume .media .avatar {
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+    .resume .card .card_body h3.title-text {
+        margin-bottom: 15px;
+    }
+    #cv .resume .media .avatar {
+        margin: 0;
+    }
+}
+
+@media(max-width:374px) {
+    footer .quick-links li:after,
+    footer p,
+    footer .quick-links li a,
+    .exp-card .exp-text p {
+        font-size: 12px;
+    }
+}

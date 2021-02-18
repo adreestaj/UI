@@ -1,0 +1,21 @@
+<aside class="sidebar" *ngIf="this.router.url!='/'&&checkLoadLeftNav()">
+  <div class="brand-holder text-center">
+    <a href="#"><img src="../../../assets/images/rs_images/logo.png" alt=""></a>
+  </div>
+  <nav>
+    <ul class="list-unstyled">
+      <li>
+        <a href="#">All</a>
+      </li>
+      <li routerLinkActive="active" *ngFor="let m of menues">
+        <a [routerLink]="m.path">{{m.title}}</a>
+      </li>
+<!--      <li>-->
+<!--        <a href="#">Create Job Post</a>-->
+<!--      </li>-->
+    </ul>
+  </nav>
+</aside>
+
+
+

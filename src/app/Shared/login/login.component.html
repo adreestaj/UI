@@ -1,0 +1,71 @@
+<img src="../../../assets/images/rs_images/Bg.png" alt="" class="shape">
+<div class="wrapper">
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a href="index.html"><img src="../../../assets/images/rs_images/logo.png" alt=""></a>
+        <a  (click)="onRegisterClick()"  class="btn btn-primary">REGISTER <i class="fal fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="hero-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="hero-text">
+            <h1>Please Log In</h1>
+            <p>Welcome back! Please log in below by entering the email address and password you created when you registered.</p>
+            <form  [formGroup]="loginForm"   (ngSubmit)="Login()">
+              <div class="form-row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control"  formControlName="username" placeholder="Email Address"
+                           [ngClass]="{ 'is-invalid': submitted && f.username.errors }">
+                    <span class="form-bar"></span>
+
+                    <div *ngIf="submitted && f.username.errors" class="invalid_feedback">
+                      <div *ngIf="f.username.errors.required">This is required</div>
+                      <div *ngIf="f.username.errors.email">Invalid email</div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <input type="password" class="form-control" formControlName="password"  placeholder="Password"
+                           [ngClass]="{ 'is-invalid': submitted && f.password .errors }">
+                    <span class="form-bar"></span>
+                    <div *ngIf="submitted && f.password.errors" class="invalid_feedback">
+                      <div  *ngIf="f.password.errors.required">This is required</div>
+                    </div>
+
+
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="text-right"><a href="#" class="cta-link">Forgot Password?</a></div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">login <i class="fal fa-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="img-holder text-right">
+            <img src="../../../assets/images/rs_images/vector-smart-object-2.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <ul class="quick-links">
+        <li><a href="#">SEARCH JOB</a></li>
+        <li><a href="#"> HIRE</a></li>
+      </ul>
+      <p>© 2021 copyright all right reserved</p>
+    </div>
+  </footer>
+</div>
