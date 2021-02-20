@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  BaseURL: "http://localhost:8080/api",
-  //BaseURL: "http://lifelineservice.muzzammil.net",
+  //BaseURL: "http://localhost:8080/api",
+  BaseURL: "http://3.139.207.180:8080/api",
 };
 
 /*
