@@ -36,6 +36,7 @@
               ,"src/assets/css/rs_css/responsive2.css"
               ,"src/assets/css/rs_css/style.css"
               ,"src/assets/css/rs_css/style2.css",
+              "src/assets/css/rs_css/custom.css",
               "node_modules/froala-editor/css/froala_editor.pkgd.min.css",
               "node_modules/froala-editor/css/froala_style.min.css",
               "node_modules/font-awesome/css/font-awesome.css"

@@ -297,3 +297,9 @@ li {
 .form-card button {
     border-radius: 27px;
 }
+.fa-calendar-check-o{
+  margin-left: 15px;
+}
+.time i{
+  font-size: 22px !important;
+}

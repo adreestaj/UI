@@ -19,6 +19,17 @@ import {CreateJobComponent} from './employer/createJob/createJob.component';
 import {SidebarComponent} from './Shared/sidebar/sidebar.component';
 import {ManageJobComponent} from './employer/manageJob/manageJob.component';
 import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
+import {IConfig, NgxMaskModule} from 'ngx-mask';
+export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
+const maskConfig: Partial<IConfig> = {
+  validation: false,
+};
+const maskConfigFunction: () => Partial<IConfig> = () => {
+  return {
+    validation: false,
+  };
+};
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +50,8 @@ import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
     NgbModule,
     NgxPrintModule,
     AngularEditorModule,
-    FroalaEditorModule.forRoot(), FroalaViewModule.forRoot()
+    FroalaEditorModule.forRoot(), FroalaViewModule.forRoot(),
+    NgxMaskModule.forRoot(maskConfig),
 
   ],
   providers: [

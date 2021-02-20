@@ -70,6 +70,14 @@ export class HttpService {
         catchError(this.handleError([]))
       );
   }
+  GetFile(url: string): Observable<any> {
+    //this.globalService.sendMessage('loading', true);
+    return this.http.get<any>( url)
+      .pipe(
+        tap((temp: any) => { }),
+        catchError(this.handleError([]))
+      );
+  }
 
 
 

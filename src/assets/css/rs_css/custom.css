@@ -1,0 +1,26 @@
+.job-boxes {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.resume-box{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.job-title-div {
+    background: #fff;
+    box-shadow: 0px 0px 3px 0px #919191;
+    border-radius: 5px;
+}
+.resume-main-div {
+    background: #fff;
+    box-shadow: 0px 0px 3px 0px #919191;
+    border-radius: 5px;
+}
+.resume-mian .heading2 {
+    margin-top: 0px;
+    padding: 15px;
+    border-bottom: 1px solid #dfdede;
+	/* box-shadow: 2px 3px 4px 2px #efefef; */
+}
