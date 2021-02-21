@@ -19,7 +19,7 @@ export class CreateJobComponent implements OnInit {
   returnUrl: string;
   submitted = false;
   job: Job = new Job();
-  public editorOptions: Object = { key: 'qmdjakwrD-13sapD1uxu==' };
+  public editorOptions: Object = { apiKey : 'qmdjakwrD-13sapD1uxu==' };
   constructor(private  loginService: LoginService,
     private httpClint: HttpClient,
     private http: HttpService,
