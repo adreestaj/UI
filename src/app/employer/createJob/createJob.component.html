@@ -9,7 +9,7 @@
         <i class="far fa-search"></i>
       </form>
    -->   <div class="right-links">
-        <a  class="btn btn-primary">Create <i class="fal fa-plus"></i></a>
+<!--        <a  class="btn btn-primary">Create <i class="fal fa-plus"></i></a>-->
         <a (click)="$event.preventDefault();logout()" href="" class="logout"><i class="far fa-power-off"></i></a>
         <a  class="menu-mob d-inline-flex d-lg-none"><i class="fal fa-bars"></i></a>
       </div>
@@ -93,11 +93,11 @@
       <div class="col-lg-12">
         <div class="form-group">
           <label>Job Summary</label>
-          <div [froalaEditor] formControlName="jobSummary" [(froalaModel)]="job.jobSummary"    > </div>
+          <div [froalaEditor]="editorOptions"  formControlName="jobSummary" [(froalaModel)]="job.jobSummary"    > </div>
         </div>
         <div class="form-group">
           <label>Candidate Requirements</label>
-          <div  [froalaEditor]  formControlName="candidateRequirements" [(froalaModel)]="job.candidateRequirements" > </div>
+          <div  [froalaEditor]="editorOptions"  formControlName="candidateRequirements" [(froalaModel)]="job.candidateRequirements" > </div>
         </div>
         <div class="text-right">
           <button type="submit" class="btn btn-primary">Post</button>
